@@ -1,5 +1,13 @@
-<app-card>
-    <h1>Store Page</h1>
-    <p>Here you can buy our products</p>
-    <button>Buy</button>
-</app-card>
+
+
+<div class="vitrine-container">
+    <div *ngFor="let produto of produtos" class="card">
+      <div class="images-container">
+        <img class="imagem-principal" [src]="produto.imagemPrincipal" alt="Imagem principal do produto">
+        <img class="imagem-secundaria" [src]="produto.imagemSecundaria" alt="Imagem secundária do produto">
+      </div>
+      <a [href]="produto.lojaLink" target="_blank">
+        <button class="btn-loja">Ver na loja</button>
+      </a>
+    </div>
+  </div>

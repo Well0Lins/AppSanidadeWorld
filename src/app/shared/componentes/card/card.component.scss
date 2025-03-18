@@ -1,6 +1,7 @@
-.card {
-    background: rgb(153, 151, 151);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.card {    
+    background: var(--charcoal);
+    box-shadow: 10px 4px 7px var(--border-dark);
     border-radius: 12px;
     padding: 16px;
     display: inline-block;
