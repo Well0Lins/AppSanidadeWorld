@@ -1,9 +1,24 @@
 
-.card {    
-    background: var(--charcoal);
-    box-shadow: 10px 4px 7px var(--border-dark);
-    border-radius: 12px;
-    padding: 16px;
+.container__card {    
+    background: none;
+    color: var(--white);
+
+    font-family: 'Azonix', sans-serif;
+    font-size: medium;
+    border: 2.5px solid transparent; 
+
+    border-image: linear-gradient(to right, 
+    var(--blue), 
+    var(--blue-010) 20%,  
+    var(--blue-030) 40%,
+    var(--purple-020) 60%,
+    var(--purple-010) 80%, 
+    var(--purple)) 1;    
+    border-image-slice: 1; 
+
+    padding: 5px 15px;
     display: inline-block;
     max-width: 100%;
   }
+
+  
