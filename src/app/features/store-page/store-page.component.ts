@@ -10,18 +10,15 @@ import { CommonModule } from '@angular/common';
 export class StorePageComponent implements OnInit{
   produtos = [
     {
-      imagemPrincipal: 'https://via.placeholder.com/300x200?text=Produto+1',
-      imagemSecundaria: 'https://via.placeholder.com/300x200?text=Produto+1+Detalhe',
+      imagemPrincipal: 'https://img.freepik.com/fotos-premium/um-manequim-com-uma-camiseta-branca_886336-1346.jpg',
       lojaLink: 'https://www.exemplo.com/loja/produto1'
     },
     {
-      imagemPrincipal: 'https://via.placeholder.com/300x200?text=Produto+2',
-      imagemSecundaria: 'https://via.placeholder.com/300x200?text=Produto+2+Detalhe',
+      imagemPrincipal: 'https://img.freepik.com/fotos-premium/um-manequim-com-uma-camiseta-branca_886336-1346.jpg',
       lojaLink: 'https://www.exemplo.com/loja/produto2'
     },
     {
-      imagemPrincipal: 'https://via.placeholder.com/300x200?text=Produto+3',
-      imagemSecundaria: 'https://via.placeholder.com/300x200?text=Produto+3+Detalhe',
+      imagemPrincipal: 'https://img.freepik.com/fotos-premium/um-manequim-com-uma-camiseta-branca_886336-1346.jpg',
       lojaLink: 'https://www.exemplo.com/loja/produto3'
     }
   ];

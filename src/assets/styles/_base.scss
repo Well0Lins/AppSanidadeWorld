@@ -1,10 +1,16 @@
 html, body { height: 100%; }
+@font-face {
+    font-family: 'Azonix';
+    src: url(../fonts/Azonix.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}   
 body { 
     margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
-    background: var(--background-dark);
-}
-
+    background-image: url('../images/background-purple.png');
+    
+     
+} 
 h1, h2, h3 {
     font-size: 22px;
 }

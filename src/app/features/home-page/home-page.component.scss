@@ -13,3 +13,13 @@
     height: auto;
     border: 1px solid blue;
 }
+
+.container__store {
+    width: 50%;
+    height: auto;
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
